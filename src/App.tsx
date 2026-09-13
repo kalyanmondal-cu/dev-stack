@@ -3,6 +3,8 @@ import { toast } from "react-toastify";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
+import { StackPanel } from "./components/StackPanel";
+import { TechnologyCard } from "./components/TechnologyCard";
 
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
