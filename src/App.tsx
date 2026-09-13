@@ -6,7 +6,6 @@ import { Navbar } from "./components/Navbar";
 import { StackPanel } from "./components/StackPanel";
 import { TechnologyCard } from "./components/TechnologyCard";
 import type { Technology } from "./types/technology";
-
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
   const [stack, setStack] = useState<Technology[]>([]);
