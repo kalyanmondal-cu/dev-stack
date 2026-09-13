@@ -1,4 +1,4 @@
-
+import { useEffect, useMemo, useState } from "react";
 
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
