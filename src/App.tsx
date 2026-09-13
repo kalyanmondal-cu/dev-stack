@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { toast } from "react-toastify";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
